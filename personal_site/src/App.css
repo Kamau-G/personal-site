@@ -30,6 +30,9 @@ body{
 }
 .DevCard{
   background-color: #282c34;
+  background-image: url('./assets/Author.jpg');
+  background-size: cover;
+  background-position: center center;
   display: flex;
   flex-basis: 50vw;
   flex-direction: column;
@@ -37,11 +40,46 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border: .05em solid #cf2727f5;
+  /* border: .05em solid #27cfb3f5; */
+}
+.DogCard{
+  background-color: #282c34;
+  background-image: url('./assets/redOrb.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-basis: 50vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* border: .05em solid #cf2727f5; */
+}
+.DevView{
+  background-color: #282c34;
+  display: flex;
+  flex-basis: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: .05em solid #278ccff5;
+}
+.DogView{
+  background-color: #282c34;
+  display: flex;
+  flex-basis: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: .05em solid #e47448f5;
 }
 .vHome{
   display: flex;
   flex-direction: row;
-  border: .05em solid #c4cf27f5;
-  min-height: 100vh;
+  min-height: 99vh;
 }

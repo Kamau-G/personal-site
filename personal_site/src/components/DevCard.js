@@ -1,10 +1,11 @@
 import {useState} from 'react';
-
-function DevCard(){
+import { NavLink } from 'react-router-dom';
+// onClick={(event)=>{setNav(0)}}
+function DevCard({setNav}){
     return(
-        <div className='DevCard col-6'>
+        <NavLink className='DevCard' to={`/dev`}>
             DevCard
-        </div>
+        </NavLink>
     );
 }
 export default DevCard;
