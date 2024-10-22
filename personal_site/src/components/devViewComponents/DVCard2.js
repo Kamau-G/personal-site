@@ -7,7 +7,6 @@ function DevViewCard2({setNav}){
     }
     return(
         <div id='dvCard2' className='DevViewCard2 ' onClick={function(){}}>
-            Card 2
         </div>
     );
 }

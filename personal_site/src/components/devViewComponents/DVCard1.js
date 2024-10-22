@@ -19,7 +19,6 @@ function DevViewCard1({handleOnMouseEnter, handleOnMouseLeave}){
     // }
     return(
         <div className='DevViewCard1 ' onClick={function(){}} onMouseEnter={function(){}} onMouseLeave={function(){}}>
-            Card 1
         </div>
             
     );

@@ -19,7 +19,7 @@ function DevView(){
         document.getElementById('DevViewCard1').style.minWidth = '25vw';
     }
     return <div className="DevView">
-        
+        <HomeBtn/>
         <DevViewCard0  />
         <div className="vFlexRow">
         <div className="vFlexRow2 slide-in-top">

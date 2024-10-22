@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif ;
-  /* min-height: 99vh; */
 }
 
 .App-logo {
@@ -75,7 +74,6 @@ body{
   background-position: center center;
   display: flex;
   flex-basis: 50vw;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -119,7 +117,7 @@ body{
 }
 .DogViewCard1{
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
+  background-color: #4a644e;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -130,13 +128,11 @@ body{
   font-size: calc(10px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 0vh 0vh 2vh 2vh;
-  background-color: #faf6f094;
   box-shadow: 2px 2.5px 5px 1px #000000;
   min-width: 25vw;
 }
 .DogViewCard2{
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -147,14 +143,14 @@ body{
   font-size: calc(10px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 2vh;
-  background-color: #faf6f094;
+  background-color: #6b7b70;
   box-shadow: 2px 2.5px 5px 1px #000000;
   min-width: 25vw;
 
 }
 .DogViewCard3{
+  
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -165,7 +161,7 @@ body{
   font-size: calc(10px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 2vh;
-  background-color: #faf6f094;
+  background-color: #a4b29f;
   box-shadow: 2px 2.5px 5px 1px #000000;
   min-width: 25vw;
 
@@ -177,7 +173,7 @@ body{
 .DevViewCard0{
   z-index: 10;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
+  background-color: #d0c7b4;
   background-image: url('./assets/Author.jpg');
   background-size: cover;
   background-position: center center;
@@ -195,15 +191,14 @@ body{
 .DevViewCard1{
   z-index: 0;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
-  background-image: url('./assets/projectCasino.png');
+  background-color: #6b7b70;
+  /* background-image: url('./assets/projectCasino.png'); */
   background-size: cover;
   /* background-position: center center; */
   /* flex-basis: 50vw; */
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 0vh 0vh 5vh 5vh;
-  background-color: #faf6f094;
   box-shadow: 2px 2.5px 5px 1px #000000;
   width: 22vw; 
   /* max-width: 25vw; */
@@ -213,9 +208,10 @@ body{
 .DevViewCard2{
   z-index: 1;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
+  background-color: #a4b29f;
+  /* background-image: url('./assets/dog.png'); */
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   /* flex-basis: 22vw; */
   flex-direction: column;
   align-items: center;
@@ -223,17 +219,17 @@ body{
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 0vh 0vh 5vh 5vh;
-  background-color: #faf6f094;
   box-shadow: 2px 2.5px 5px 1px #000000;
   width: 22vw; 
   max-height: 50vh;
 
 }
 .DevViewCard3{
+  text-align: left;
   z-index: -1;
   padding: .2em;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
+  background-color: #d0c7b4;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -241,7 +237,6 @@ body{
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 2vh;
-  background-color: #faf6f094;
   box-shadow: 2px 2.5px 5px 1px #000000;
   min-width: 22vw; 
   /* max-width: 60vw; */
@@ -250,41 +245,51 @@ body{
 .DevViewCard4{
   z-index: 3;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #282c34;
+  background-color: #e4dec9;
   background-size: cover;
   background-position: center;
   /* flex-basis: 33%; */
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 0vh 0vh 5vh 5vh;
-  background-color: #faf6f094;
   box-shadow: 2px 2.5px 5px 1px #000000;
   width: 22vw; 
   min-height: 50vh;
 
 }
 .HomeBtn{
-  display: flex;
-  align-items: center;
+  text-align: center;
   z-index: 99;
-  position:fixed;
-  top:1vh;
-  /* text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2); */
-  /* background-color: #282c34; */
-  background-size: cover;
-  background-position: center;
-  text-align: left;
-  /* flex-basis: 33%; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
-  border-radius: 1vh 0 0 1vh ;
+  border: 1vh ridge #3737388a;
+  border-radius: 1vh 1vh 1vh 1vh ;
+  background-color: #faf6f0e8;
+  box-shadow: 2px 2.5px 5px 1px #000000;
+  min-width: 8vw;
+  min-height: 5vh;
+}
+.HomeBtnDog{
+  text-align: center;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  right: 100vw;
+  
+  font-size: calc(1px + 2vmin);
+  color: rgb(26, 25, 25);
+  border-radius: 1vh 1vh 1vh 1vh ;
   background-color: #faf6f094;
   box-shadow: 2px 2.5px 5px 1px #000000;
-  min-width: 10vw;
+  min-width: 4vw;
   min-height: 5vh;
 }
   .HomeBtn:hover{
-    background-color: #1291068a;
+    background-color: #129106e1;
   }
 .slide-in-top {
   animation: slide-in 0.5s ease-out forwards;
@@ -381,4 +386,12 @@ body{
   100% {
     transform: translateX(0vw);
   }
+}
+.watermark {
+  opacity: 0.5; /* Set initial opacity for watermark effect */
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.watermark:hover {
+  opacity: 1; /* Make the div solid on hover */
 }
